@@ -114,8 +114,8 @@ EMAIL_HOST_USER = config('EMAIL_HOST_USER', default='')
 EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD', default='')
 EMAIL_USE_TLS = config('EMAIL_USE_TLS', default=True, cast=bool)
 
-DEFAULT_FROM_EMAIL = 'Django Boards <noreply@djangoboards.com>'
-EMAIL_SUBJECT_PREFIX = '[Django Boards] '
+DEFAULT_FROM_EMAIL = 'Jrosk boards <noreply@djangoboards.com>'
+EMAIL_SUBJECT_PREFIX = '[Jrosk boards] '
 
 
 SECURE_CONTENT_TYPE_NOSNIFF = True
