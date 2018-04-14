@@ -8,6 +8,7 @@ from django.db.models import Count
 from django.urls import reverse_lazy
 
 from django.views.generic import UpdateView, ListView
+
 from django.utils import timezone
 from django.urls import reverse
 

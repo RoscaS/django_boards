@@ -4,6 +4,29 @@
 
 # Divers
 
+# Tools
+```
+mkdir myproject
+cd myproject
+virtualenv venv -p python3.6
+source venv/bin/activate
+pip install django
+```
+
+```
+django-admin startproject myproject
+django-admin startapp firstapp
+```
+
+```
+python manage makemigrations
+python manage migrate
+```
+
+```
+python manage.py createsuperuser
+```
+
 
 ## django_extensions
 
